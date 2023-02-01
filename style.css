@@ -3,18 +3,6 @@
         src: url(/Baloo-Regular.ttf);
 }
 
-.title1 {
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 125px;
-}
-
-.title2 {
-    font-family: Bungee;
-    text-align: center;
-    margin-top: -25px;
-}
-
 .logo {
     position: absolute;
     top: 8px;
@@ -28,22 +16,37 @@
     padding-left: 25px;
 }
 
-.container {
-  position: relative;
+.htext1 {
+  padding-top: 100px;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: -100px;
-  margin-left: -350px;
-  margin-right: -350px;
-  height: 1280px;
-  width: 720px;
+  font-family: sans-serif;
 }
 
-.htext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.htext2 {
+  text-align: center;
+  font-family: Bungee;
+  margin-top: -35px;
+}
+
+.joinButton {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 725px;
+  margin-top: -30px;
+  padding-top: -30px;
+  border-radius: 5px;
+}
+
+.joinButton:hover {
+  background-color: rgb(0, 78, 0);
 }
 
 ul {
@@ -55,7 +58,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: transparent;
-    padding-left: 625px;
+    padding-left: 620px;
     text-decoration: grey;
 }
 
